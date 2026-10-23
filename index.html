@@ -488,11 +488,11 @@ body { min-height: 100vh; }
 .eod-take { font-size: 15.5px; line-height: 1.6; }
 
 /* Definition footing */
-.eod-def-foot { margin: 4px 0 0; padding-top: 12px; border-top: 1px solid var(--border); font-size: 12.5px; line-height: 1.6; color: var(--fg-muted); }
-.eod-def-foot b { color: var(--fg); font-weight: 600; }
+.eod-def-below { margin: -6px 2px 0; font-size: 13px; line-height: 1.6; color: var(--fg-muted); }
+.eod-def-below b { color: var(--fg); font-weight: 600; }
 
 /* Justified body text */
-.eod-take, .eod-note, .eod-caption, .eod-def-foot, .pd-sub { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
+.eod-take, .eod-note, .eod-caption, .eod-def-below, .pd-sub { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
 </style>
 
 <div class="eod-canvas" id="eod-canvas" data-eodtheme="light">
@@ -571,9 +571,9 @@ body { min-height: 100vh; }
       <div class="sa-node sa-idle eod-link" data-go="quarter-table" data-focus="total_deployed_pkr_mn" role="button" tabindex="0" aria-label="Funds available with Treasury: view quarterly detail"><span class="sa-label">Funds available with Treasury</span><span class="sa-val"><span class="dash-skeleton" data-source="quarters" data-field="undeployed_pkr_mn" data-qfmt="mn">&#x2014;</span></span></div>
     </div>
     <div class="sa-strip" id="sa-strip" data-source="quarters" aria-hidden="true"></div>
-      <p class="eod-def-foot"><b>Capital available for deployment:</b> the total pool of funds Karandaaz can invest at the end of a period. It comprises funds drawn under EAGR and SEED, external grant funds for NCGCL, RDEL and own source revenue (OSR) funds injected for Women Ventures, OSR funds available with Treasury, and the liquidity reserve held against the outstanding portfolio.</p>
     </div>
   </section>
+  <p class="eod-def-below"><b>Capital available for deployment</b> is the total pool of funds Karandaaz can invest at the end of a period. It comprises funds drawn under EAGR and SEED, external grant funds for NCGCL, OSR funds available with Treasury, and the liquidity reserve held against the outstanding portfolio.</p>
 
   <section class="eod-card" id="eod-trend">
     <div class="eod-cardhead">
